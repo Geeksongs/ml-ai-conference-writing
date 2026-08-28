@@ -1,0 +1,4 @@
+interface:
+  display_name: "ML/AI Conference Writing"
+  short_description: "Frame ML/AI papers around their strongest publishable value"
+  default_prompt: "Use $ml-ai-conference-writing to organize this ML/AI conference paper around its strongest publishable value."
