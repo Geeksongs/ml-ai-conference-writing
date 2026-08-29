@@ -41,6 +41,8 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 15. 禁止使用长破折号。论文正文、标题、图表标题、表格说明和补充材料中不得使用 em dash（—）或 en dash（–）作为句内标点。使用逗号、分号、冒号、括号或完整句子替代；表示数值区间、章节范围或复合术语时，使用普通连字符（-）并保持写法一致。
 
+16. 论文定位一律使用 PDF 可见行号。讨论、审阅或修改具体公式、句子或段落时，禁止使用 LaTeX 源码行号作为对用户的定位依据。以当前编译 PDF 中显示的行号为准；若 Overleaf PDF 与本地编译 PDF 的排版或行号不同，必须以 Overleaf PDF 为唯一准则，并明确说明本地 PDF 不能替代该编号。
+
 ## 默认决策规则
 
 当遇到任何不理想的材料时，按以下优先级处理：
