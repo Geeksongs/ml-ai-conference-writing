@@ -45,6 +45,8 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 17. PDF 行号提取工具固定为 pypdf。用 Python 的 ``pypdf.PdfReader`` 读取当前编译 PDF 的文本层，并从其中检索可见行号和上下文；不得以源码行号替代 PDF 行号。只有在文本提取无法区分公式换行、双栏顺序或排版位置时，才以 PDF 的视觉渲染作补充核对；Overleaf PDF 仍是最终编号依据。
 
+18. 技术术语必须全篇严格对齐。起草或改写前，先从论文现有正文抽取机制、模块、数据阶段、训练信号和实验设置的 canonical terminology，并逐字复用；不得为文采而临时替换同一概念的名称、扩写新的近义术语或混用多个说法。若确需新术语，先定义一次，再有意识地全篇统一更新。章节标题、加粗 Challenge 标题、图表标题和摘要同样受此规则约束；其中加粗 Challenge 标题必须采用 Title Case。
+
 ## 默认决策规则
 
 当遇到任何不理想的材料时，按以下优先级处理：
