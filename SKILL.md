@@ -43,6 +43,8 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 16. 论文定位一律使用 PDF 可见行号。讨论、审阅或修改具体公式、句子或段落时，禁止使用 LaTeX 源码行号作为对用户的定位依据。以当前编译 PDF 中显示的行号为准；若 Overleaf PDF 与本地编译 PDF 的排版或行号不同，必须以 Overleaf PDF 为唯一准则，并明确说明本地 PDF 不能替代该编号。
 
+17. PDF 行号提取工具固定为 pypdf。用 Python 的 ``pypdf.PdfReader`` 读取当前编译 PDF 的文本层，并从其中检索可见行号和上下文；不得以源码行号替代 PDF 行号。只有在文本提取无法区分公式换行、双栏顺序或排版位置时，才以 PDF 的视觉渲染作补充核对；Overleaf PDF 仍是最终编号依据。
+
 ## 默认决策规则
 
 当遇到任何不理想的材料时，按以下优先级处理：
