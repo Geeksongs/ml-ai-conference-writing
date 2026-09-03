@@ -51,6 +51,8 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 19. 实验结果写法。主文的 Results 段首先说明趋势和 insight：按预算、实验阶段或评估条件概括何种方法更强、优势是否扩大或持续，以及该规律说明了什么。数字只保留支撑该结论的 1-2 个关键差值、增幅或比较；不要逐项复述任务、模型和指标的全部数值，完整结果由表格承载。
 
+20. 指代本文提出的方法、模块或贡献时，不得使用 it、its、they 等第三人称代词。必须直接重复方法或模块名称，或使用“our method”“our approach”等明确表述。
+
 ## 默认决策规则
 
 当遇到任何不理想的材料时，按以下优先级处理：
