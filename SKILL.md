@@ -53,6 +53,8 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 20. 指代本文提出的方法、模块或贡献时，不得使用 it、its、they 等第三人称代词。必须直接重复方法或模块名称，或使用“our method”“our approach”等明确表述。
 
+21. 描述本文方法时，不得使用“组合”及其英文对应表达，例如 combine 或 combination。不要将方法写成 A+B 拼接，应直接说明方法名称、能力或机制。
+
 ## 默认决策规则
 
 当遇到任何不理想的材料时，按以下优先级处理：
