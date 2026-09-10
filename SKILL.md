@@ -63,7 +63,7 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 25. 首次介绍本文框架时，优先用正向能力定义框架，不要用 failure、缺陷或修复来定义框架，即使方法确实利用失败信息。先说明方法创造什么能力，再在后文说明该能力如何处理失败。
 
-26. 除非必须概括已有方法的核心限制，否则尽量避免 failure、diagnosis 和 recovery 等被动措辞。描述本文方法时，应将相关信息定位为推动 self-evolution 的来源，而不是把本文写成被动的 recovery loop。方法叙事以 learning、selection、exploration 和 evolution 为主。
+26. 除非必须概括已有方法的核心限制，否则尽量避免 failure、diagnosis 和 recovery 等被动措辞。描述本文方法时，不要将相关信息写成被动的 recovery loop。
 
 ## 默认决策规则
 
