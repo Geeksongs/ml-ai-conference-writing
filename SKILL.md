@@ -55,6 +55,16 @@ description: Write, revise, compress, and organize ML/AI conference papers as fo
 
 21. 描述本文方法时，不得使用“组合”及其英文对应表达，例如 combine 或 combination。不要将方法写成 A+B 拼接，应直接说明方法名称、能力或机制。
 
+22. 禁止话多。每个词必须承担定义问题、说明机制、支撑证据或表达结论中的至少一项职责。删除不增加信息的强化词、形容词堆叠、同义重复和泛化套话。优先使用直接的名词和动词，例如写“from rollouts”，不要写“from robot rollout evidence”。
+
+23. 核心机制必须明确归属本文设计。用“we design/propose”或方法名称引出本文的新模块、策略和学习规则，不要用匿名的 “A policy/module ...” 句式让贡献看起来像背景组件。
+
+24. 实验结论默认强化整体方法。若没有针对单一模块的直接消融或因果证据，结果应说明本文方法的整体价值，不得把整体结果只归因于其中一个机制。
+
+25. 首次介绍本文框架时，优先用正向能力定义框架，不要用 failure、缺陷或修复来定义框架，即使方法确实利用失败信息。先说明方法创造什么能力，再在后文说明该能力如何处理失败。
+
+26. 除非必须概括已有方法的核心限制，否则尽量避免 failure、diagnosis 和 recovery 等被动措辞。描述本文方法时，应将相关信息定位为推动 self-evolution 的来源，而不是把本文写成被动的 recovery loop。方法叙事以 learning、selection、exploration 和 evolution 为主。
+
 ## 默认决策规则
 
 当遇到任何不理想的材料时，按以下优先级处理：
